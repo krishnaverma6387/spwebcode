@@ -1,0 +1,9 @@
+[29-Dec-2023 23:03:13 America/Boise] PHP Fatal error:  Cannot redeclare Admin::ManageContact() in /home4/himansh3/public_html/slickpattern/application/controllers/Admin.php on line 119
+[02-Jan-2024 04:55:03 America/Boise] PHP Fatal error:  Cannot redeclare Admin::ShoppingGuid() in /home4/himansh3/public_html/slickpattern/application/controllers/Admin.php on line 343
+[02-Jan-2024 04:55:24 America/Boise] PHP Fatal error:  Cannot redeclare Admin::ShoppingGuid() in /home4/himansh3/public_html/slickpattern/application/controllers/Admin.php on line 343
+[02-Jan-2024 04:55:27 America/Boise] PHP Fatal error:  Cannot redeclare Admin::ShoppingGuid() in /home4/himansh3/public_html/slickpattern/application/controllers/Admin.php on line 343
+[02-Jan-2024 04:55:28 America/Boise] PHP Fatal error:  Cannot redeclare Admin::ShoppingGuid() in /home4/himansh3/public_html/slickpattern/application/controllers/Admin.php on line 343
+[03-Jan-2024 05:04:05 America/Boise] PHP Fatal error:  Cannot redeclare Admin::ManageRewards() in /home4/himansh3/public_html/slickpattern/application/controllers/Admin.php on line 292
+[09-Jan-2024 00:30:45 America/Boise] PHP Fatal error:  Cannot redeclare Admin::PaymentMethod() in /home4/himansh3/public_html/slickpattern/application/controllers/Admin.php on line 1064
+[13-Jan-2024 04:23:05 America/Boise] PHP Fatal error:  Cannot redeclare Admin::Managepress() in /home4/himansh3/public_html/slickpattern/application/controllers/Admin.php on line 3164
+ 

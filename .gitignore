@@ -1,0 +1,46 @@
+# Ignore application configuration files that may contain sensitive information
+/application/config/config.php
+/application/config/database.php
+/.github/workflows/publish.yml
+
+
+# Ignore cache files
+/application/cache/* 
+/system/cache/*
+
+# Ignore log files
+/application/logs/*
+
+# Ignore temporary files
+/tmp/*
+/temp/*
+*.tmp
+
+# Ignore IDE specific files
+.idea/
+/.vscode/
+/*.sublime-project
+/*.sublime-workspace
+
+# Ignore Composer dependencies (if applicable)
+vendor/
+
+# Ignore node_modules (if using Node.js)
+node_modules/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore PHPUnit test results
+phpunit.xml
+
+# Ignore Composer lock file (if you want to commit it, remove this line)
+composer.lock
+
+# Ignore build artifacts
+/build/
+
+# Ignore environment-specific configuration files
+.env
+.env.*

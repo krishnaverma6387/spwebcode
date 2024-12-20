@@ -1,0 +1,65 @@
+for product code generation :  Code Structure:
+
+Format: YYYYMMDD-PX-CIC-######
+Components:
+YYYYMMDD: Stock entry date (e.g., 20240625)
+P: Category code
+6: Clothing
+7: Bags
+8: Footwear
+9: Jewelry
+C: Single item (C) or Combo product (Combo)
+######: Unique 6-digit sequential identification number
+Example for Single Item:
+
+Code: 20240625-6C-000001
+Breakdown:
+20240625: Stock entry date (June 25th, 2024)
+6: Clothing category
+C: Single item
+000001: Unique identification number (starting from 1)
+Example for Combo Product:
+
+Product Code: 20240625-9Combo-000002
+Breakdown:
+20240625: Stock entry date (June 25th, 2024)
+9: Jewelry category
+Combo: Indicates a combo product
+000002: Unique identification number (starting from 2 since it's the second product received)
+
+Product Varient Code: 20240625-9Combo1-000002
+Breakdown:
+20240625: Stock entry date (June 25th, 2024)
+9: Jewelry category
+Combo: Indicates a combo product
+1: product Id
+000002: Unique identification number (starting from 2 since it's the second product received)
+
+
+Rules for admin : See a list of all product codes and their variant product codes.
+Search product codes by date, category, subcategory, color, size, brand, etc.
+Auto-generate product codes.
+Edit any product code later if needed.
+Delete any number of product codes if not required.
+Ensure no items are associated with the product code before deletion.
+Display a clear message if a product code is associated with items (e.g., "This code is associated with XYZ items. Please remove the association before deleting.").
+Add small notes in front of any product code.
+Access a document with product code format descriptions and examples for future reference.
+Use the same product code when stock is restocked.
+
+
+
+=================================For SKUID===============================
+ Artificial jewelry {INDIVIDUAL/COMBO}-{PRODUCT CATEGORY}-{SUB CATEGORY (Optional)}-{MATERIAL}-{COLOR (Optional)}-{SIZE (Optional)}-{STYLE (Optional)}-{UNIQUE ID}
+ Individual Gold Metal Necklace (Pendant style): INDIVIDUAL-NEC-PEND-METL-GL-1234
+Combo: Plastic Bracelet and Earrings Set (Silver, Hoop earrings): COMBO-BRAC-EAR-PLSTC-SV-HOOP-7890
+Acrylic Choker Necklace (Multicolor): INDIVIDUAL-NEC-CHOKER-ACRYL-MULTI-OSA (OSA for One Size Available)
+Metal Ring (Size Medium): INDIVIDUAL-RING-METL-SML-0521
+ We have variety of clothing option, hand purse/bags, artificial jewelry and footwear (user can buy individual product or combo products) these are above parameters for SKU depends on categories.
+ For you understanding purpose.
+ Rules for admin panel:  See a list of all SKU IDs based on categories, and search and sort by date, category, subcategory, color, size, brand, etc.
+Auto-generate SKU IDs and edit any later if needed.
+Delete any number of SKU IDs if not required.
+Add small notes in front of any SKU ID.
+Access a document with SKU format descriptions and examples for future reference.
+Use the same SKU ID when stock is restocked.

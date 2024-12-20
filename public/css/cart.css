@@ -1,0 +1,37 @@
+.cart-header{
+  background-color: #fff;
+  width: 100%;
+  min-height: 78px;
+  max-width: 92%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-middle-container{
+  display: flex;
+  letter-spacing: 3px;
+  color: #696B79;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+}
+.cart-middle-container .step{
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+.cart-middle-container .active{ 
+  color: #dc8eff;
+  border-bottom: 2px solid #dc8eff;
+}
+.cart-header .divider{
+  display: inline-block;
+  border-top: 1px dashed #696B79;
+  height: 4px;
+  width: 10%;
+}
+.secureContainer{
+  display: flex;
+  gap: 12px;
+  text-wrap: nowrap;
+}

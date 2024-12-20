@@ -1,0 +1,84 @@
+/* ==============
+    Form-elements
+===================*/
+
+.error {
+    color: #ff0000;
+}
+
+
+/* Form validation */
+
+.parsley-error {
+    border-color: #e66060 !important;
+}
+
+.parsley-errors-list {
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+.parsley-errors-list.filled {
+    display: block;
+}
+
+.parsley-errors-list>li {
+    font-size: 12px;
+    list-style: none;
+    color: #e66060;
+    margin-top: 5px;
+}
+
+.collapsing,
+.dropdown,
+.dropleft,
+.dropright,
+.dropup {
+    position: static !important;
+}
+
+.chosen-container {
+    width: 100% !important;
+}
+
+.dropify-message p{
+	font-size: 16px  !important;
+}
+.btn i {
+    top: 0px;
+}
+
+@media only screen and (max-width:1444px){
+    .selectall{
+        margin-left: 20px!important;
+    }
+    #checkall{
+        margin-left: 20px!important;
+    }
+}
+.form-control1{
+    width: fit-content;
+    padding: 4px;
+    margin-left: 5px;
+    height: 27px;
+}
+.search_div{
+    overflow: auto;
+}
+.search_btn{
+    margin-left: 5px;
+    background: #ff6c6c;
+    border-radius: 5px;
+    color: white;
+}
+.refresh_btn{
+    margin-left: 5px;
+    background: #47a3ce;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+}
+.refresh_btn:hover{
+    color: red;
+}
