@@ -548,20 +548,19 @@
 
                 <!-- start all order -->
                     <div class="row py-3 custom-bg-color">
+                        
                         <div class="col-md-12">
                             <div class="card">
                                 <div class="card-body">
 
                                     <div class="row">
                                         <div class="col-1">
-                                            <img src="<?= base_url('public/images/back-img.jpg') ?>"
-                                                style="height: 23px;border-radius: 100%;" alt="">
+                                            <i class="fa fa-times-circle" style="font-size:24px"></i>
                                         </div>
                                         <div class="col-11">
-                                            <b> Refund Credited </b> <br>
-                                            <span> Your refund of ₹450.00 for return has been proccessed jeans </span>
+                                            <b> Cancelled </b> <br>
+                                              <span> on Fri, 20 Dec as per your request </span>
                                             <br>
-                                            <a href="#" class="text-danger"> View Refund details </a>
                                         </div>
                                     </div>
 
@@ -577,17 +576,9 @@
                                             <p> Size : 34 </p>
                                         </div>
                                         <div class="col-1">
-                                            <a href="#"> <i class="fa fa-angle-right"></i> </a>
+                                            <a href="<?php echo site_url('Home2/order_details'); ?>"> <i class="fa fa-angle-right"></i> </a>
                                         </div>
 
-                                        <div class="col-12">
-                                            <span class="fa fa-star checked"></span>
-                                            <span class="fa fa-star checked"></span>
-                                            <span class="fa fa-star checked"></span>
-                                            <span class="fa fa-star"></span>
-                                            <span class="fa fa-star"></span>
-                                            <p> Rate & Review to <b> earn Myntra credit</b> </p>
-                                        </div>
                                     </div>
 
                                 </div>
@@ -624,7 +615,7 @@
                                         </div>
 
                                         <div class="col-1">
-                                            <a href="#"> <i class="fa fa-angle-right"></i> </a>
+                                            <a href="<?php echo site_url('Home2/order_details'); ?>"> <i class="fa fa-angle-right"></i> </a>
                                         </div>
 
                                         <div class="col-12">
@@ -640,6 +631,49 @@
                                 </div>
                             </div>
                         </div>
+
+                        <div class="col-md-12 mt-2">
+                            <div class="card">
+                                <div class="card-body">
+
+                                    <div class="row">
+                                        <div class="col-1 d-flex align-items-center">
+                                            <i class="fa fa-cube" style="font-size:17px"></i>
+                                       </div>
+
+                                        <div class="col-11">
+                                            <b style="color: rgb(8 186 150);"> In Transit </b> <br>
+                                            <span> Arriving by Tue, 24 Dec </span>
+                                            <br>
+                                        </div>
+                                    </div>
+
+                                    <div class="row mx-1 py-1 custom-bg-color">
+                                        <div class="col-1 px-sm-1 px-0">
+                                            <img src="<?= base_url('public/images/jeans.webp') ?>" class="res-img"
+                                                alt="no-img">
+                                        </div>
+                                        <div class="col-10">
+                                            <b> Refund Credited </b> <br>
+                                            <span> Your refund of ₹450.00 for return has been proccessed jeans </span>
+                                            <br>
+                                            <p> Size : 34 </p>
+                                        </div>
+
+                                        <div class="col-1">
+                                            <a href="<?php echo site_url('Home2/order_details'); ?>"> <i class="fa fa-angle-right"></i> </a>
+                                        </div>
+
+                                        <div class="col-12">
+                                           <a href="#" class="form-control text-center"> Track </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
                     </div>
 
                     <div class="col-md-12">

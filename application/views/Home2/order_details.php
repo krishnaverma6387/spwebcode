@@ -45,6 +45,10 @@
             font-size: 10px;
         }
 
+        .fs11 {
+            font-size: 11px;
+        }
+
         .fs12 {
             font-size: 12px;
         }
@@ -264,6 +268,18 @@
             color: white
          }
 
+         .fa-heart {
+            cursor: pointer;
+            }
+
+            .fa-heart.red {
+            background-color: red;
+            color: white;
+            padding: 5px;
+            border-radius: 50%;
+            }
+
+
     </style>
 </head>
 
@@ -402,37 +418,127 @@
                         </div>
 
                         <div class="col-md-12 px-sm-5">
-                           
                             <div class="card">
                                 <div class="card-body">
-
-                                    <div class="row">
-
+                                  <div class="row">
                                     <div class="col-12 py-3 bg-hover-custom d-flex">
                                         <b> Arriving </b> <span> by fri,25 Des </span> 
                                         <i class='fas fa-angle-right ml-auto'></i>
                                     </div>
-
                                     <div class="col-12 py-3 bg-hover-custom d-flex">
                                         <b> Placed </b> 
                                         <b> Order Placed </b> <span> on 19 Des</span>
                                         <i class='fas fa-angle-right ml-auto'></i>
                                     </div>
-
                                     <div class="col-12 py-3 bg-hover-custom d-flex">
                                         <b> Order Placed </b> <span> on 19 Des </span>
                                         <i class='fas fa-angle-right ml-auto'></i>
                                     </div>
-
                                 </div>
-                                 
                                 </div>
                               </div>
 
-                            
-
+                              <div class="card my-3">
+                                <div class="card-body py-2">
+                                  <div class="row">
+                                    <div class="col-12">
+                                        <center>
+                                            <i class="fas fa-map-marker-alt" style="font-size:24px"></i> <br>
+                                        <b> Track </b>
+                                        </center>
+                                    </div>
+                                </div>
+                               </div>
+                             </div>
                         </div>
 
+                        <div class="col-md-12 px-0">
+                            <div class="card mt-3">
+                                <div class="card-body py-1">
+                                    <i class='far fa-clock'></i>  <span> Expiry Date <b> 30 Jun, 2026 </b> </span>
+                               </div>
+                             </div>
+                        </div>
+
+
+                        <div class="col-md-12 px-0">
+                            <div class="card mt-3">
+                                <div class="card-body py-1">
+                                    <b class="fs16" > Items that go well with this item </b>
+
+                                    <div class="row mb-2 mt-5 gap-2">
+
+                                        <div class="col-md-3 border">
+                                            <img src="<?= base_url('public/images/jeans.webp') ?>" style="height: 224px;width:100%" alt=""> <br>
+                                            <div class="mt-1 d-flex justify-content-between">
+                                                <sapn> T-SHIRT </sapn>
+                                                <sapn> <i class="far fa-heart heart-icon"></i> </sapn>
+                                            </div>
+                                            <sapn class="fs12"> Tea Tree Essential oil . </sapn>
+                                            <div class="mt-y d-flex justify-content-between">
+                                                <sapn class="fs11"> <b>₹ </b> 1339  </sapn>
+                                                <sapn class="fs11"> <del> ₹1539 </del> <span class="text-danger"> (15% OFF) </span> </sapn>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-3 border">
+                                            <img src="<?= base_url('public/images/jeans.webp') ?>" style="height: 224px;width:100%" alt=""> <br>
+                                            <div class="mt-1 d-flex justify-content-between">
+                                                <sapn> T-SHIRT </sapn>
+                                                <sapn> <i class="far fa-heart heart-icon"></i> </sapn>
+                                            </div>
+                                            <sapn class="fs12"> Tea Tree Essential oil . </sapn>
+                                            <div class="mt-y d-flex justify-content-between">
+                                                <sapn class="fs11"> <b>₹ </b> 1339  </sapn>
+                                                <sapn class="fs11"> <del> ₹1539 </del> <span class="text-danger"> (15% OFF) </span> </sapn>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-3 border">
+                                            <img src="<?= base_url('public/images/jeans.webp') ?>" style="height: 224px;width:100%" alt=""> <br>
+                                            <div class="mt-1 d-flex justify-content-between">
+                                                <sapn> T-SHIRT </sapn>
+                                                <sapn> <i class="far fa-heart heart-icon"></i> </sapn>
+                                            </div>
+                                            <sapn class="fs12"> Tea Tree Essential oil . </sapn>
+                                            <div class="mt-y d-flex justify-content-between">
+                                                <sapn class="fs11"> <b>₹ </b> 1339  </sapn>
+                                                <sapn class="fs11"> <del> ₹1539 </del> <span class="text-danger"> (15% OFF) </span> </sapn>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-3 border">
+                                            <img src="<?= base_url('public/images/jeans.webp') ?>" style="height: 224px;width:100%" alt=""> <br>
+                                            <div class="mt-1 d-flex justify-content-between">
+                                                <sapn> T-SHIRT </sapn>
+                                                <sapn> <i class="far fa-heart heart-icon"></i> </sapn>
+                                            </div>
+                                            <sapn class="fs12"> Tea Tree Essential oil . </sapn>
+                                            <div class="mt-y d-flex justify-content-between">
+                                                <sapn class="fs11"> <b>₹ </b> 1339  </sapn>
+                                                <sapn class="fs11"> <del> ₹1539 </del> <span class="text-danger"> (15% OFF) </span> </sapn>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-3 border">
+                                            <img src="<?= base_url('public/images/jeans.webp') ?>" style="height: 224px;width:100%" alt=""> <br>
+                                            <div class="mt-1 d-flex justify-content-between">
+                                                <sapn> T-SHIRT </sapn>
+                                                <sapn> <i class="far fa-heart heart-icon"></i> </sapn>
+                                            </div>
+                                            <sapn class="fs12"> Tea Tree Essential oil . </sapn>
+                                            <div class="mt-y d-flex justify-content-between">
+                                                <sapn class="fs11"> <b>₹ </b> 1339  </sapn>
+                                                <sapn class="fs11"> <del> ₹1539 </del> <span class="text-danger"> (15% OFF) </span> </sapn>
+                                            </div>
+                                        </div>
+
+                                       
+                                    </div>
+
+                               </div>
+                             </div>
+                        </div>
 
                     </div>
 
@@ -458,6 +564,7 @@
             </div>
         </section>
     </main>
+
     <script>
         const mobileProfileBtn = document.querySelector('.mobileProfileBtn');
         const profileUploadDialog = document.querySelector('.profileUploadDialog');
@@ -472,7 +579,23 @@
             profileUploadDialog.close();
             document.body.classList.remove('sidebar-open');
         })
+
     </script>
+
+<!-- like button -->>
+<script>
+    document.querySelectorAll(".heart-icon").forEach(function (heart) {
+        heart.addEventListener("click", function () {
+            this.classList.toggle("red");
+        });
+    });
+</script>
+<!-- end  -->>
+
+  
+
+
+
     <?php include 'include/footer.php'; ?>
     <!-- <?php include 'include/modal.php'; ?> -->
     <?php include 'include/jsLinks.php'; ?>
