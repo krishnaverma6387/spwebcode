@@ -579,6 +579,14 @@
                                             <a href="<?php echo site_url('Home2/order_details'); ?>"> <i class="fa fa-angle-right"></i> </a>
                                         </div>
 
+                                        <div class="col-12">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                            <p> Rate & Review to <b> earn Myntra credit</b> </p>
+                                        </div>
                                     </div>
 
                                 </div>

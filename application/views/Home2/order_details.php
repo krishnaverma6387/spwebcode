@@ -98,7 +98,7 @@
             font-weight: 700;
         }
 
-      
+
         .overviewSidebar a:hover {
             color: black;
             font-weight: 600;
@@ -261,25 +261,37 @@
             color: #888;
             pointer-events: none;
         }
+
         /* end filter icon in placeholder  */
 
         .bg-hover-custom:hover {
             background-color: #03a685 !important;
             color: white
-         }
+        }
 
-         .fa-heart {
+        .fa-heart {
             cursor: pointer;
-            }
+        }
 
-            .fa-heart.red {
+        .fa-heart.red {
             background-color: red;
             color: white;
             padding: 5px;
             border-radius: 50%;
-            }
+        }
 
+        .row.overflow-scroll::-webkit-scrollbar {
+            height: 8px;
+        }
 
+        .row.overflow-scroll::-webkit-scrollbar-thumb {
+            background: #ccc;
+            border-radius: 4px;
+        }
+
+        .row.overflow-scroll::-webkit-scrollbar-thumb:hover {
+            background: #aaa;
+        }
     </style>
 </head>
 
@@ -390,164 +402,214 @@
                 <!-- profile details start  -->
                 <div class="col-lg-9 col-md-9 col-sm-12 pb-5">
 
-                 
-                    
 
-                <!-- start all order -->
+
+
+                    <!-- start all order -->
 
                     <div class="row py-3 custom-bg-color">
 
                         <div class="col-md-12 d-flex flex-row-reverse">
                             <div class="card" style="width: 10%;">
                                 <div class="card-body p-1 pl-2">
-                                  <b> Help </b> <i class='fas fa-headphones'></i>
+                                    <b> Help </b> <i class='fas fa-headphones'></i>
                                 </div>
-                              </div>
+                            </div>
                         </div>
 
                         <div class="col-md-12 d-flex justify-content-center">
-                            <img src="<?= base_url('public/images/jeans.webp') ?>" style="height: 123px;" alt=""> <br>
+                            <img src="<?= base_url('public/images/jeans.webp') ?>" style="height: 123px;"
+                                alt=""> <br>
                         </div>
 
                         <div class="col-md-12 mt-2">
                             <center>
                                 <b> T-SHIRT </b> <br>
-                            <span> Lorem ipsum o voluptates vel reprehenderit, aut laudantium </pspan>  <br>
-                            <span> Size: 12-20Y </span>
+                                <span> Lorem ipsum o voluptates vel reprehenderit, aut laudantium </pspan> <br>
+                                    <span> Size: 12-20Y </span>
                             </center>
                         </div>
 
                         <div class="col-md-12 px-sm-5">
                             <div class="card">
                                 <div class="card-body">
-                                  <div class="row">
-                                    <div class="col-12 py-3 bg-hover-custom d-flex">
-                                        <b> Arriving </b> <span> by fri,25 Des </span> 
-                                        <i class='fas fa-angle-right ml-auto'></i>
-                                    </div>
-                                    <div class="col-12 py-3 bg-hover-custom d-flex">
-                                        <b> Placed </b> 
-                                        <b> Order Placed </b> <span> on 19 Des</span>
-                                        <i class='fas fa-angle-right ml-auto'></i>
-                                    </div>
-                                    <div class="col-12 py-3 bg-hover-custom d-flex">
-                                        <b> Order Placed </b> <span> on 19 Des </span>
-                                        <i class='fas fa-angle-right ml-auto'></i>
+                                    <div class="row">
+                                        <div class="col-12 py-3 bg-hover-custom d-flex">
+                                            <b> Arriving </b> <span> by fri,25 Des </span>
+                                            <i class='fas fa-angle-right ml-auto'></i>
+                                        </div>
+                                        <div class="col-12 py-3 bg-hover-custom d-flex">
+                                            <b> Placed </b>
+                                            <b> Order Placed </b> <span> on 19 Des</span>
+                                            <i class='fas fa-angle-right ml-auto'></i>
+                                        </div>
+                                        <div class="col-12 py-3 bg-hover-custom d-flex">
+                                            <b> Order Placed </b> <span> on 19 Des </span>
+                                            <i class='fas fa-angle-right ml-auto'></i>
+                                        </div>
                                     </div>
                                 </div>
-                                </div>
-                              </div>
+                            </div>
 
-                              <div class="card my-3">
+                            <div class="card my-3">
                                 <div class="card-body py-2">
-                                  <div class="row">
-                                    <div class="col-12">
-                                        <center>
-                                            <i class="fas fa-map-marker-alt" style="font-size:24px"></i> <br>
-                                        <b> Track </b>
-                                        </center>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <center>
+                                                <i class="fas fa-map-marker-alt" style="font-size:24px"></i> <br>
+                                                <b> Track </b>
+                                            </center>
+                                        </div>
                                     </div>
                                 </div>
-                               </div>
-                             </div>
+                            </div>
                         </div>
 
                         <div class="col-md-12 px-0">
                             <div class="card mt-3">
                                 <div class="card-body py-1">
-                                    <i class='far fa-clock'></i>  <span> Expiry Date <b> 30 Jun, 2026 </b> </span>
-                               </div>
-                             </div>
+                                    <i class='far fa-clock'></i> <span> Expiry Date <b> 30 Jun, 2026 </b> </span>
+                                </div>
+                            </div>
                         </div>
-
 
                         <div class="col-md-12 px-0">
                             <div class="card mt-3">
                                 <div class="card-body py-1">
-                                    <b class="fs16" > Items that go well with this item </b>
+                                    <b class="fs16"> Items that go well with this item </b>
+                                    <div class="row mb-2 mt-5 gap-2 flex-nowrap overflow-scroll"
+                                        style="display: flex; overflow-x: auto;">
 
-                                    <div class="row mb-2 mt-5 gap-2">
-
-                                        <div class="col-md-3 border">
-                                            <img src="<?= base_url('public/images/jeans.webp') ?>" style="height: 224px;width:100%" alt=""> <br>
+                                        <div class="col-md-3 border flex-shrink-0">
+                                            <img src="<?= base_url('public/images/jeans.webp') ?>"
+                                                style="height: 224px;width:100%" alt=""><br>
                                             <div class="mt-1 d-flex justify-content-between">
-                                                <sapn> T-SHIRT </sapn>
-                                                <sapn> <i class="far fa-heart heart-icon"></i> </sapn>
+                                                <span> T-SHIRT </span>
+                                                <span> <i class="far fa-heart heart-icon"></i> </span>
                                             </div>
-                                            <sapn class="fs12"> Tea Tree Essential oil . </sapn>
+                                            <span class="fs12"> Tea Tree Essential oil. </span>
                                             <div class="mt-y d-flex justify-content-between">
-                                                <sapn class="fs11"> <b>₹ </b> 1339  </sapn>
-                                                <sapn class="fs11"> <del> ₹1539 </del> <span class="text-danger"> (15% OFF) </span> </sapn>
+                                                <span class="fs11"> <b>₹ </b> 1339 </span>
+                                                <span class="fs11"> <del> ₹1539 </del> <span class="text-danger">
+                                                        (15% OFF) </span></span>
                                             </div>
                                         </div>
 
-                                        <div class="col-md-3 border">
-                                            <img src="<?= base_url('public/images/jeans.webp') ?>" style="height: 224px;width:100%" alt=""> <br>
+                                        <div class="col-md-3 border flex-shrink-0">
+                                            <img src="<?= base_url('public/images/jeans.webp') ?>"
+                                                style="height: 224px;width:100%" alt=""><br>
                                             <div class="mt-1 d-flex justify-content-between">
-                                                <sapn> T-SHIRT </sapn>
-                                                <sapn> <i class="far fa-heart heart-icon"></i> </sapn>
+                                                <span> T-SHIRT </span>
+                                                <span> <i class="far fa-heart heart-icon"></i> </span>
                                             </div>
-                                            <sapn class="fs12"> Tea Tree Essential oil . </sapn>
+                                            <span class="fs12"> Tea Tree Essential oil. </span>
                                             <div class="mt-y d-flex justify-content-between">
-                                                <sapn class="fs11"> <b>₹ </b> 1339  </sapn>
-                                                <sapn class="fs11"> <del> ₹1539 </del> <span class="text-danger"> (15% OFF) </span> </sapn>
+                                                <span class="fs11"> <b>₹ </b> 1339 </span>
+                                                <span class="fs11"> <del> ₹1539 </del> <span class="text-danger">
+                                                        (15% OFF) </span></span>
                                             </div>
                                         </div>
-
-                                        <div class="col-md-3 border">
-                                            <img src="<?= base_url('public/images/jeans.webp') ?>" style="height: 224px;width:100%" alt=""> <br>
+                                        <div class="col-md-3 border flex-shrink-0">
+                                            <img src="<?= base_url('public/images/jeans.webp') ?>"
+                                                style="height: 224px;width:100%" alt=""><br>
                                             <div class="mt-1 d-flex justify-content-between">
-                                                <sapn> T-SHIRT </sapn>
-                                                <sapn> <i class="far fa-heart heart-icon"></i> </sapn>
+                                                <span> T-SHIRT </span>
+                                                <span> <i class="far fa-heart heart-icon"></i> </span>
                                             </div>
-                                            <sapn class="fs12"> Tea Tree Essential oil . </sapn>
+                                            <span class="fs12"> Tea Tree Essential oil. </span>
                                             <div class="mt-y d-flex justify-content-between">
-                                                <sapn class="fs11"> <b>₹ </b> 1339  </sapn>
-                                                <sapn class="fs11"> <del> ₹1539 </del> <span class="text-danger"> (15% OFF) </span> </sapn>
+                                                <span class="fs11"> <b>₹ </b> 1339 </span>
+                                                <span class="fs11"> <del> ₹1539 </del> <span class="text-danger">
+                                                        (15% OFF) </span></span>
                                             </div>
                                         </div>
-
-                                        <div class="col-md-3 border">
-                                            <img src="<?= base_url('public/images/jeans.webp') ?>" style="height: 224px;width:100%" alt=""> <br>
+                                        <div class="col-md-3 border flex-shrink-0">
+                                            <img src="<?= base_url('public/images/jeans.webp') ?>"
+                                                style="height: 224px;width:100%" alt=""><br>
                                             <div class="mt-1 d-flex justify-content-between">
-                                                <sapn> T-SHIRT </sapn>
-                                                <sapn> <i class="far fa-heart heart-icon"></i> </sapn>
+                                                <span> T-SHIRT </span>
+                                                <span> <i class="far fa-heart heart-icon"></i> </span>
                                             </div>
-                                            <sapn class="fs12"> Tea Tree Essential oil . </sapn>
+                                            <span class="fs12"> Tea Tree Essential oil. </span>
                                             <div class="mt-y d-flex justify-content-between">
-                                                <sapn class="fs11"> <b>₹ </b> 1339  </sapn>
-                                                <sapn class="fs11"> <del> ₹1539 </del> <span class="text-danger"> (15% OFF) </span> </sapn>
+                                                <span class="fs11"> <b>₹ </b> 1339 </span>
+                                                <span class="fs11"> <del> ₹1539 </del> <span class="text-danger">
+                                                        (15% OFF) </span></span>
                                             </div>
                                         </div>
-
-                                        <div class="col-md-3 border">
-                                            <img src="<?= base_url('public/images/jeans.webp') ?>" style="height: 224px;width:100%" alt=""> <br>
+                                        <div class="col-md-3 border flex-shrink-0">
+                                            <img src="<?= base_url('public/images/jeans.webp') ?>"
+                                                style="height: 224px;width:100%" alt=""><br>
                                             <div class="mt-1 d-flex justify-content-between">
-                                                <sapn> T-SHIRT </sapn>
-                                                <sapn> <i class="far fa-heart heart-icon"></i> </sapn>
+                                                <span> T-SHIRT </span>
+                                                <span> <i class="far fa-heart heart-icon"></i> </span>
                                             </div>
-                                            <sapn class="fs12"> Tea Tree Essential oil . </sapn>
+                                            <span class="fs12"> Tea Tree Essential oil. </span>
                                             <div class="mt-y d-flex justify-content-between">
-                                                <sapn class="fs11"> <b>₹ </b> 1339  </sapn>
-                                                <sapn class="fs11"> <del> ₹1539 </del> <span class="text-danger"> (15% OFF) </span> </sapn>
+                                                <span class="fs11"> <b>₹ </b> 1339 </span>
+                                                <span class="fs11"> <del> ₹1539 </del> <span class="text-danger">
+                                                        (15% OFF) </span></span>
                                             </div>
                                         </div>
-
-                                       
+                                        <div class="col-md-3 border flex-shrink-0">
+                                            <img src="<?= base_url('public/images/jeans.webp') ?>"
+                                                style="height: 224px;width:100%" alt=""><br>
+                                            <div class="mt-1 d-flex justify-content-between">
+                                                <span> T-SHIRT </span>
+                                                <span> <i class="far fa-heart heart-icon"></i> </span>
+                                            </div>
+                                            <span class="fs12"> Tea Tree Essential oil. </span>
+                                            <div class="mt-y d-flex justify-content-between">
+                                                <span class="fs11"> <b>₹ </b> 1339 </span>
+                                                <span class="fs11"> <del> ₹1539 </del> <span class="text-danger">
+                                                        (15% OFF) </span></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 border flex-shrink-0">
+                                            <img src="<?= base_url('public/images/jeans.webp') ?>"
+                                                style="height: 224px;width:100%" alt=""><br>
+                                            <div class="mt-1 d-flex justify-content-between">
+                                                <span> T-SHIRT </span>
+                                                <span> <i class="far fa-heart heart-icon"></i> </span>
+                                            </div>
+                                            <span class="fs12"> Tea Tree Essential oil. </span>
+                                            <div class="mt-y d-flex justify-content-between">
+                                                <span class="fs11"> <b>₹ </b> 1339 </span>
+                                                <span class="fs11"> <del> ₹1539 </del> <span class="text-danger">
+                                                        (15% OFF) </span></span>
+                                            </div>
+                                        </div>
+                                   
                                     </div>
 
-                               </div>
-                             </div>
+                                </div>
+                            </div>
                         </div>
+
+
+                        <div class="col-md-12 px-0">
+                            <div class="card mt-3">
+                                <div class="card-body py-1">
+                                    <b> Delivery Address </b> <br>
+                                    <span> <b>Name : </b> krishna </span> <br>
+                                    <span> <b>Contact : </b> 1234567890 </span>
+                                   <p> varanasi, pandeypur, Baragaon - 456254 </p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+
+
+
 
                     </div>
 
 
-                 <!-- end all order -->
-                
+                    <!-- end all order -->
+
 
                     <!-- start no order image  -->
-                   <!--  <div class="row text-center">
+                    <!--  <div class="row text-center">
                         <div class="col-md-12 ">
                             <img src="<?= base_url('public/images/no-order.png') ?>" style="max-width: 50%;" alt=""> <br>
                             <b> Your shopping journey is waiting to begin!  No orders yet? </b>
@@ -555,7 +617,7 @@
                                     Track all your fabulous finds right here. Happy shopping, beautiful! </p>
                         </div>
                     </div> -->
-                   <!-- end no order image  -->
+                    <!-- end no order image  -->
 
                 </div>
                 <!-- profile details end -->
@@ -579,20 +641,19 @@
             profileUploadDialog.close();
             document.body.classList.remove('sidebar-open');
         })
-
     </script>
 
-<!-- like button -->>
-<script>
-    document.querySelectorAll(".heart-icon").forEach(function (heart) {
-        heart.addEventListener("click", function () {
-            this.classList.toggle("red");
+    <!-- like button -->>
+    <script>
+        document.querySelectorAll(".heart-icon").forEach(function(heart) {
+            heart.addEventListener("click", function() {
+                this.classList.toggle("red");
+            });
         });
-    });
-</script>
-<!-- end  -->>
+    </script>
+    <!-- end  -->>
 
-  
+
 
 
 
